@@ -1,0 +1,16 @@
+Q1. 자바에서 컴파일 명령어와 실행 명령어를 쓰시오?
+ 컴파일 명령어 javac.exe 실행명령어 java.exe
+Q2. 객체지향 프로그래밍 언어란 한 마디로 쓴다면?
+ 추상화
+Q3. JavaSE 프로그램의 기본틀을 작성하시요. (Hello라는 메인 클래스를 만들어 볼 것)
+    public class Hello{
+        public static void main(String[] args){
+            System.out.println("");
+        }
+    }
+Q4. 객체지향 프로그램에서 클래스 안에서 특정 기능(동작)을 처리하는 함수를 무엇이라고 하는가?
+ method
+Q5. JavaSE 프로그램에서 프로그램의 진입 점(시작점)이며 가장 먼저 실행되는 메서드의 이름을 쓰시오?
+ public static void main(String[] args)
+Q6. JVM(Java Virtual Machine)이란 무엇인가?
+ 자바가상머신은 자바 프로그램을 실행해주는 프로세서(엔진)
