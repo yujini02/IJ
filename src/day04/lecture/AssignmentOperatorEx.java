@@ -1,4 +1,4 @@
-package day04;
+package day04.lecture;
 
 public class AssignmentOperatorEx {
     public static void main(String[] args) {

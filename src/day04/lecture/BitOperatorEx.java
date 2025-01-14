@@ -1,4 +1,4 @@
-package day04;
+package day04.lecture;
 
 public class BitOperatorEx {
     public static void main(String[] args) {

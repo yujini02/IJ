@@ -1,4 +1,4 @@
-package day04;
+package day04.lecture;
 
 public class OverflowUnderflowEx {
     public static void main(String[] args) {

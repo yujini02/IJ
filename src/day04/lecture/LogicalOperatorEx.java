@@ -1,4 +1,4 @@
-package day04;
+package day04.lecture;
 
 public class LogicalOperatorEx {
     public static void main(String[] args) {
