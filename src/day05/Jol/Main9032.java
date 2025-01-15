@@ -9,10 +9,15 @@ public class Main9032 {
         System.out.print("점수를 입력하세요. ");
         int score = sc.nextInt();
 
-        if(score>=80){
-            System.out.println("축하합니다.합격입니다.");
-        }else {
-            System.out.println("불합격입니다.");
+        if(score<=100 || score>=0){
+            if(score>=80){
+                System.out.println("축하합니다.합격입니다.");
+            }else {
+                System.out.println("죄송합니다.불합격입니다.");
+            }
+        }else{
+            System.out.println("점수를 입력하세요.");
         }
+
     }
 }
