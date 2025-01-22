@@ -1,4 +1,4 @@
-package day11;
+package day11.Test;
 
 public class Member {
     String name;

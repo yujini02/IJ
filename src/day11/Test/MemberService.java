@@ -1,4 +1,4 @@
-package day11;
+package day11.Test;
 
 public class MemberService {
    boolean login(String id, String password){

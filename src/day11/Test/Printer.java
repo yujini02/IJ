@@ -1,4 +1,4 @@
-package day11;
+package day11.Test;
 
 public class Printer {
     void pritln(int x){

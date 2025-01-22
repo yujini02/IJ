@@ -1,4 +1,4 @@
-package day11;
+package day11.Test;
 
 public class PrinterEx {
     public static void main(String[] args) {
