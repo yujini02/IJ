@@ -27,23 +27,24 @@ public class BestMovieModeling {
             System.out.print("제목: ");
             movieArray[i].setTitle(input.nextLine());  //i번째 제목 입력
 
-            System.out.print("개봉일: ");
-            movieArray[i].setOpenDay(input.nextLine()); //i번째 개봉일 입력
+//            System.out.print("개봉일: ");
+//            movieArray[i].setOpenDay(input.nextLine()); //i번째 개봉일 입력
 
             System.out.print("배우: ");
             movieArray[i].setActor(input.nextLine());  //i번째 배우이름 입력
 
-            System.out.print("런닝타임(분): ");
-            movieArray[i].setRunningtime(input.nextLine());  //i번째 런닝타임 입력
-
-            System.out.print("장르: ");
-            movieArray[i].setGenre(input.nextLine());    //i번째 장르 입력
-
-            System.out.print("등급 :");
-            movieArray[i].setGrade(input.nextLine());      //i번째 등급 입력
+//            System.out.print("런닝타임(분): ");
+//            movieArray[i].setRunningtime(input.nextLine());  //i번째 런닝타임 입력
+//
+//            System.out.print("장르: ");
+//            movieArray[i].setGenre(input.nextLine());    //i번째 장르 입력
+//
+//            System.out.print("등급 :");
+//            movieArray[i].setGrade(input.nextLine());      //i번째 등급 입력
         }
 
         //출력
+        /*
         for(int i=0;i<movieTotal;i++){
             System.out.println("제목 :"+movieArray[i].getTitle());
             System.out.println("개봉일: "+movieArray[i].getOpenDay());
@@ -51,6 +52,15 @@ public class BestMovieModeling {
             System.out.println("런닝타임(분): "+movieArray[i].getRunningtime());
             System.out.println("장르: "+movieArray[i].getGenre());
             System.out.println("등급 :"+movieArray[i].getGrade());
+        }
+
+
+        for(변수타입 변수이름 : 배열이름){
+            문장
+        }
+        */
+        for (MovieVO movieVO : movieArray) {
+            System.out.println(movieVO);
         }
 
 /*
