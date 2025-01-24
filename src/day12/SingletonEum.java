@@ -1,6 +1,7 @@
 package day12;
-
+/*
 enum SingletonEum {
+
     INSTANCE;
 
     private final Client dbClient;
@@ -20,3 +21,5 @@ enum SingletonEum {
         SingletonEum singletonEum = SingletonEum.getInstance();
 
     }
+
+ */
